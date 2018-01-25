@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang=es>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+<form action="http://jorgesanchez.net/servicios/practica17.php" method="GET">
+    <table border="1">
+        <thead>
+            <tr>
+                <td colspan="3"><h1>Registro de asistenetes a las Jornadas de Seguridad</h1></td>
+             </tr>
+        </thead>
+        <tbody>
+             <tr>
+                <td rowspan="7"><img src="cartel.jpg" alt="Seguridad informatica" width="313" height="442"></td>
+                <td><label for="DNI"></label>DNI*</td>
+                <td><input type="text" id="DNI" pattern="[XYZ]?[0-9]{8}[A-Z]"></td>
+             </tr>
+            <tr>
+                <td><label for="nombre"></label>Nombre*</td>
+                <td><input type="text" id="nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="apellido"></label>Apellidos*</td>
+                <td><input type="text" id="apellido"></td>
+            </tr>
+            <tr>
+                <td><label for="fecha"></label>Fecha de Nacimiento</td>
+                <td><input type="text" id="fecha"></td>
+            </tr>
+            <tr>
+                <td>Comunidad Autónoma</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>Enviar Datos</td>
+                <td><button>Enviar</button></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><em>Centro Don Bosco 1: 34190, Villamuriel de cerrato Tlfno: 979777270</em></td>
+            </tr>
+        </tfoot>
+    </table>
+</form>
+</body>
+</html>
