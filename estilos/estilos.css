@@ -33,3 +33,6 @@ table tr:last-of-type{
 table tr:last-of-type a{
     color: #f1c40f;
 }
+ td p{
+     margin-left: 20px;
+ }
